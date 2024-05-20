@@ -87,7 +87,8 @@ function convertNumber() {
         }
 
     const romanNumeral = intToRoman(parsedNum);
-    outputBox.textContent = `Roman Numeral: ${romanNumeral}`;
+    outputBox.textContent = `${parsedNum}: Roman Numeral: ${romanNumeral}`;
+    errorBox.textContent = "";
     errorBox.textContent = "";
 }
 
